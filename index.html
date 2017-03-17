@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta content="telephone=no" name="format-detection">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+	<title>Document</title>
+	<link rel="stylesheet" href="css/ionic-change.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/imgupload.js"></script>
+</head>
+<body>
+
+    <div class="upload_box row row-center">
+        <div class="col">
+            <p class="t1">营业执照照片上传：</p>
+            <label id="preview" class="img img2" style="display: block;">
+                <img id="imghead" src="images/add.png" alt="">
+                <span class="text" style="display: none;">重新上传</span>
+                <input id="file1" type="file" name="pic" accept="image/*" onchange="previewImage(this,'preview','imghead')" hidden/>
+            </label>
+        </div>
+    </div>
+
+</body>
+</html>
